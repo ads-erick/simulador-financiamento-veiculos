@@ -1,8 +1,6 @@
 package simulador;
 
-/**
- * Regra de negócio do financiamento, separada da interface gráfica.
- */
+
 public class CalculadoraFinanciamento {
 
     /** Taxa aplicada sobre o valor financiado (32%, conforme o exemplo do enunciado). */

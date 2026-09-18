@@ -110,8 +110,6 @@ public class SimuladorFrame extends JFrame {
         setLocationRelativeTo(null);
     }
 
-    // ---------------------------------------------------------------- Painéis
-
     private JPanel criarPainelVeiculo() {
         JPanel painel = new JPanel(new GridBagLayout());
         painel.setBorder(tituloBorda("Dados do Veículo", false));
@@ -197,13 +195,10 @@ public class SimuladorFrame extends JFrame {
         return painel;
     }
 
-    // ---------------------------------------------------------------- Ações
-
     private void atualizarVisibilidade() {
         painelUsado.setVisible(rbUsado.isSelected());
         lblEntrada.setVisible(chkPossuiEntrada.isSelected());
         txtEntrada.setVisible(chkPossuiEntrada.isSelected());
-        // Qualquer alteração no formulário invalida um resultado já exibido
         painelResultado.setVisible(false);
         pack();
     }
@@ -285,7 +280,6 @@ public class SimuladorFrame extends JFrame {
         pack();
     }
 
-    // ---------------------------------------------------------------- Utilitários
 
     /**
      * Converte texto em número aceitando os formatos "45000", "45000.50",
