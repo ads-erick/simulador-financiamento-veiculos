@@ -49,14 +49,3 @@ Valor da parcela
 Total a pagar: valor da parcela * numero de parcelas
 
 <img width="1205" height="2148" alt="image" src="https://github.com/user-attachments/assets/3832acc7-4495-45a1-94d2-6af24889dd71" />
-
-Entrega
-Anexe na resposta, o link do repositório no github.
-
-Avaliação
-Item	Peso
-Código desenvolvido	2
-Organização da tela	3
-Funcionamento da tela	3
-Apresentação da tela funcionando ao professor.	2
-Total	10
